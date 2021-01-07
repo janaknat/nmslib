@@ -47,5 +47,6 @@ for PYBIN in /opt/python/*/bin; do
     for whl in $(ls -1 ${REPAIR_DIR} | grep nmslib); do
       mv ${REPAIR_DIR}/$whl "${OUT_DIR}"
     done
+    ls "${OUT_DIR}"
 done
 
